@@ -9,8 +9,7 @@ public class Usuario
 {
     // instance variables - replace the example below with your own
     private String nombreUsuario;
-    private String alimento;
-    private float gramosAlimento;
+    private float gramosCalorias;
 
     /**
      * Constructor for objects of class Usuario
@@ -35,8 +34,27 @@ public class Usuario
      */
     public void verUsuario()
     {
-        System.out.println("Nombre: " + nombreUsuario + "\n" + "Gramos de proteinas: "
-        + gramosAlimento + "Gramos de carbohidratos: " + gramosAlimento + "\n" +
-        "Gramos de grasas: " + gramosAlimento + "\n" + "Calorias: " + gramosAlimento);
+        if(gramosAlimento == 0)
+        {
+            System.out.println("Nombre: " + nombreUsuario + "\n" + "Gramos de proteinas: 0" + "\n"
+            + "Gramos de carbohidratos: 0" + "\n" + "Gramos de grasas: 0" + "\n" + "Calorias: 0");
+        }
+        else
+        {
+            System.out.println("Nombre: " + nombreUsuario + "\n" + "Gramos de proteinas: "
+            + gramosAlimento + "Gramos de carbohidratos: " + gramosAlimento + "\n" +
+            "Gramos de grasas: " + gramosAlimento + "\n" + "Calorias: " + gramosAlimento);
+        }
+    }
+    
+    /*
+     * Comparamos la ingesta de calorias entre dos usuarios
+     */
+    public void ingestaCalorias(String usu2)
+    {
+        if()
+        {
+            
+        }
     }
 }

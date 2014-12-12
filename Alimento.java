@@ -29,7 +29,9 @@ public class Alimento
         this.compMayor = compMayor;
     }
     
-         
+    /*
+     * Metodo para ver la información nutricional
+     */
     public void muestraDatos()
     {
         System.out.println("Nombre: " + nombreAlimento + "\n" + "Proteinas: " + gramosProteinas
