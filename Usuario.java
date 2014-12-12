@@ -10,6 +10,10 @@ public class Usuario
     // instance variables - replace the example below with your own
     private String nombreUsuario;
     private float gramosCalorias;
+    private float gramosProteinas;
+    private float gramosCarbohidratos;
+    private float gramosGrasas;
+    private float gramosAlimento;
 
     /**
      * Constructor for objects of class Usuario
@@ -18,6 +22,10 @@ public class Usuario
     {
         // initialise instance variables
         this.nombreUsuario = nombreUsuario;
+        gramosProteinas = 0;
+        gramosCarbohidratos = 0;
+        gramosGrasas = 0;
+        gramosCalorias = 0;
     }
     
     /*
@@ -52,9 +60,9 @@ public class Usuario
      */
     public void ingestaCalorias(String usu2)
     {
-        if()
+        if(gramosCalorias > 1)
         {
-            
+            System.out.println(nombreUsuario + " ha consumido más calorias que " + usu2);
         }
     }
 }
