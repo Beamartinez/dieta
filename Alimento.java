@@ -39,5 +39,8 @@ public class Alimento
         + "\n" + "Calorias: " + gramosCalorias + "\n" + "Componente mayor: " + compMayor);
     }
     
-    
+    public void calorico()
+    {
+        System.out.println("El alimento mas calorico ingerido por el usuario hasta el momento es: " + nombreAlimento);
+    }
 }
