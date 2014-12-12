@@ -36,4 +36,6 @@ public class Alimento
         + "\n" + "Carbohidratos: " + gramosCarbohidratos + "\n" + "Grasas: " + gramosGrasas
         + "\n" + "Calorias: " + gramosCalorias + "\n" + "Componente mayor: " + compMayor);
     }
+    
+    
 }
